@@ -47,12 +47,12 @@ creators:
 
 # 代码内路径配置
 在 res.FileManager 类的伴生对象中有各个文件的路径，请自行修改：
-![](/img/01.png)
+![](/imgs/01.png)
 
 # 导入 Cookies
 目前程序没有用户名和密码登录的功能，需要自己在浏览器上拷贝包含 Cookies 的 cookies.json 数据文件到 res.FileManager 中定义的地址  
 拷贝 Cookies 需要使用浏览器插件 **“Copy Cookies”** ，我在谷歌插件商店中找的，图标长这样：  
-![](/img/02.png)  
+![](/imgs/02.png)  
 然后就是有一个叫做 **“cf_clearance”** 的 cookie 字段拷贝不出来，需要使用浏览器开发者工具手动拷贝：  
 首先运行程序导入 cookies.json，在提示缺少 cf_clearance 字段退出后，会生成一个 cookies.txt 文件，在这个文件里手动添加缺少的字段即可  
 
